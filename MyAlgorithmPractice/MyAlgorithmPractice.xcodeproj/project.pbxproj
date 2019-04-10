@@ -19,6 +19,7 @@
 		9C502790225D8E44007B7E9F /* MergeSort.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C50278F225D8E44007B7E9F /* MergeSort.m */; };
 		9C502796225D94A7007B7E9F /* InsertSort.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C502795225D94A7007B7E9F /* InsertSort.m */; };
 		9C50279A225D97B4007B7E9F /* Util.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C502799225D97B4007B7E9F /* Util.m */; };
+		9C50279E225DE4D1007B7E9F /* BSearch.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C50279D225DE4D1007B7E9F /* BSearch.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +66,8 @@
 		9C502798225D97B4007B7E9F /* Util.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Util.h; sourceTree = "<group>"; };
 		9C502799225D97B4007B7E9F /* Util.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Util.m; sourceTree = "<group>"; };
 		9C50279B225DABBF007B7E9F /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		9C50279C225DE4D1007B7E9F /* BSearch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BSearch.h; sourceTree = "<group>"; };
+		9C50279D225DE4D1007B7E9F /* BSearch.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BSearch.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -168,6 +171,8 @@
 		9C502792225D8F54007B7E9F /* 查找 */ = {
 			isa = PBXGroup;
 			children = (
+				9C50279C225DE4D1007B7E9F /* BSearch.h */,
+				9C50279D225DE4D1007B7E9F /* BSearch.m */,
 			);
 			path = "查找";
 			sourceTree = "<group>";
@@ -322,6 +327,7 @@
 				9C50275D225D8C10007B7E9F /* ViewController.m in Sources */,
 				9C502768225D8C12007B7E9F /* main.m in Sources */,
 				9C50275A225D8C10007B7E9F /* AppDelegate.m in Sources */,
+				9C50279E225DE4D1007B7E9F /* BSearch.m in Sources */,
 				9C502796225D94A7007B7E9F /* InsertSort.m in Sources */,
 				9C50279A225D97B4007B7E9F /* Util.m in Sources */,
 				9C50278D225D8E34007B7E9F /* QuickSort.m in Sources */,

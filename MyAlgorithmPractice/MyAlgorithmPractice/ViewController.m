@@ -11,6 +11,8 @@
 #import "MergeSort.h"
 #import "InsertSort.h"
 
+#import "BSearch.h"
+
 @interface ViewController ()
 
 @end
@@ -20,16 +22,25 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    // 排序 ---------------------------------------------------------
+    
 //    NSMutableArray *inputArray = @[@1,@4,@6,@3,@9,@2].mutableCopy;
 
     NSMutableArray *inputArray = @[].mutableCopy;
     [self addSource:inputArray count:1000 max:1000];
     
-//    [QuickSort startProcess:inputArray];
-    inputArray = [MergeSort startProcessNonLocal:inputArray];
+    [QuickSort startProcess:inputArray];
+//    inputArray = [MergeSort startProcessNonLocal:inputArray];
 //    [InsertSort startProcess:inputArray];
     
-    NSLog(@"%@", inputArray);
+//    NSLog(@"%@", inputArray);
+    
+    
+    // 查找 ---------------------------------------------------------
+    
+//    [BSearch bSearch:inputArray target:@1];
+    [BSearch bSearchFirstAccur:@[@1,@1,@1,@1].mutableCopy target:@1];
+
 }
 
 - (void)addSource:(NSMutableArray *)array count:(NSInteger)count max:(NSInteger)maxValue {
