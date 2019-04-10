@@ -7,6 +7,10 @@
 //
 
 #import "ViewController.h"
+#import "QuickSort.h"
+#import "MergeSort.h"
+#import "InsertSort.h"
+#import "Util.h"
 
 @interface ViewController ()
 
@@ -16,7 +20,23 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+//    NSMutableArray *inputArray = @[@1,@4,@6,@3,@9,@2].mutableCopy;
+
+    NSMutableArray *inputArray = @[].mutableCopy;
+    [self addSource:inputArray count:1000 max:1000];
+    
+    [QuickSort startProcess:inputArray];
+//    [MergeSort startProcess:inputArray];
+//    [InsertSort startProcess:inputArray];
+    
+    NSLog(@"%@", inputArray);
+}
+
+- (void)addSource:(NSMutableArray *)array count:(NSInteger)count max:(NSInteger)maxValue {
+    for (int i = 0; i < count; i++) {
+        [array addObject:@(arc4random() % maxValue)];
+    }
 }
 
 

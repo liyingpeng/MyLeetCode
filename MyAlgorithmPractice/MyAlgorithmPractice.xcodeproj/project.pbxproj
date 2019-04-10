@@ -15,6 +15,10 @@
 		9C502768225D8C12007B7E9F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C502767225D8C12007B7E9F /* main.m */; };
 		9C502772225D8C12007B7E9F /* MyAlgorithmPracticeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C502771225D8C12007B7E9F /* MyAlgorithmPracticeTests.m */; };
 		9C50277D225D8C12007B7E9F /* MyAlgorithmPracticeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C50277C225D8C12007B7E9F /* MyAlgorithmPracticeUITests.m */; };
+		9C50278D225D8E34007B7E9F /* QuickSort.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C50278C225D8E34007B7E9F /* QuickSort.m */; };
+		9C502790225D8E44007B7E9F /* MergeSort.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C50278F225D8E44007B7E9F /* MergeSort.m */; };
+		9C502796225D94A7007B7E9F /* InsertSort.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C502795225D94A7007B7E9F /* InsertSort.m */; };
+		9C50279A225D97B4007B7E9F /* Util.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C502799225D97B4007B7E9F /* Util.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,15 @@
 		9C502778225D8C12007B7E9F /* MyAlgorithmPracticeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyAlgorithmPracticeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C50277C225D8C12007B7E9F /* MyAlgorithmPracticeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyAlgorithmPracticeUITests.m; sourceTree = "<group>"; };
 		9C50277E225D8C12007B7E9F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C50278B225D8E34007B7E9F /* QuickSort.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QuickSort.h; sourceTree = "<group>"; };
+		9C50278C225D8E34007B7E9F /* QuickSort.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QuickSort.m; sourceTree = "<group>"; };
+		9C50278E225D8E44007B7E9F /* MergeSort.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MergeSort.h; sourceTree = "<group>"; };
+		9C50278F225D8E44007B7E9F /* MergeSort.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MergeSort.m; sourceTree = "<group>"; };
+		9C502791225D8ED1007B7E9F /* ArrayDealer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ArrayDealer.h; sourceTree = "<group>"; };
+		9C502794225D94A7007B7E9F /* InsertSort.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InsertSort.h; sourceTree = "<group>"; };
+		9C502795225D94A7007B7E9F /* InsertSort.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InsertSort.m; sourceTree = "<group>"; };
+		9C502798225D97B4007B7E9F /* Util.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Util.h; sourceTree = "<group>"; };
+		9C502799225D97B4007B7E9F /* Util.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Util.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +114,10 @@
 		9C502757225D8C10007B7E9F /* MyAlgorithmPractice */ = {
 			isa = PBXGroup;
 			children = (
+				9C502797225D97AD007B7E9F /* Util */,
+				9C502793225D8F5A007B7E9F /* 数组和链表 */,
+				9C502792225D8F54007B7E9F /* 查找 */,
+				9C50278A225D8DF2007B7E9F /* 排序 */,
 				9C502758225D8C10007B7E9F /* AppDelegate.h */,
 				9C502759225D8C10007B7E9F /* AppDelegate.m */,
 				9C50275B225D8C10007B7E9F /* ViewController.h */,
@@ -110,6 +127,7 @@
 				9C502763225D8C12007B7E9F /* LaunchScreen.storyboard */,
 				9C502766225D8C12007B7E9F /* Info.plist */,
 				9C502767225D8C12007B7E9F /* main.m */,
+				9C502791225D8ED1007B7E9F /* ArrayDealer.h */,
 			);
 			path = MyAlgorithmPractice;
 			sourceTree = "<group>";
@@ -130,6 +148,42 @@
 				9C50277E225D8C12007B7E9F /* Info.plist */,
 			);
 			path = MyAlgorithmPracticeUITests;
+			sourceTree = "<group>";
+		};
+		9C50278A225D8DF2007B7E9F /* 排序 */ = {
+			isa = PBXGroup;
+			children = (
+				9C50278B225D8E34007B7E9F /* QuickSort.h */,
+				9C50278C225D8E34007B7E9F /* QuickSort.m */,
+				9C50278E225D8E44007B7E9F /* MergeSort.h */,
+				9C50278F225D8E44007B7E9F /* MergeSort.m */,
+				9C502794225D94A7007B7E9F /* InsertSort.h */,
+				9C502795225D94A7007B7E9F /* InsertSort.m */,
+			);
+			path = "排序";
+			sourceTree = "<group>";
+		};
+		9C502792225D8F54007B7E9F /* 查找 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "查找";
+			sourceTree = "<group>";
+		};
+		9C502793225D8F5A007B7E9F /* 数组和链表 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "数组和链表";
+			sourceTree = "<group>";
+		};
+		9C502797225D97AD007B7E9F /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				9C502798225D97B4007B7E9F /* Util.h */,
+				9C502799225D97B4007B7E9F /* Util.m */,
+			);
+			path = Util;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,9 +316,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C502790225D8E44007B7E9F /* MergeSort.m in Sources */,
 				9C50275D225D8C10007B7E9F /* ViewController.m in Sources */,
 				9C502768225D8C12007B7E9F /* main.m in Sources */,
 				9C50275A225D8C10007B7E9F /* AppDelegate.m in Sources */,
+				9C502796225D94A7007B7E9F /* InsertSort.m in Sources */,
+				9C50279A225D97B4007B7E9F /* Util.m in Sources */,
+				9C50278D225D8E34007B7E9F /* QuickSort.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
