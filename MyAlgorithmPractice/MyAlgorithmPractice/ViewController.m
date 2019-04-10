@@ -10,7 +10,6 @@
 #import "QuickSort.h"
 #import "MergeSort.h"
 #import "InsertSort.h"
-#import "Util.h"
 
 @interface ViewController ()
 
@@ -26,8 +25,8 @@
     NSMutableArray *inputArray = @[].mutableCopy;
     [self addSource:inputArray count:1000 max:1000];
     
-    [QuickSort startProcess:inputArray];
-//    [MergeSort startProcess:inputArray];
+//    [QuickSort startProcess:inputArray];
+    inputArray = [MergeSort startProcessNonLocal:inputArray];
 //    [InsertSort startProcess:inputArray];
     
     NSLog(@"%@", inputArray);

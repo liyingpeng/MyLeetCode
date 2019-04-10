@@ -11,7 +11,13 @@
 
 @protocol ArrayDealer <NSObject>
 
-+ (void)startProcess:(NSArray *)arrayInput;
+@optional
+
+// 原地排序算法
++ (void)startProcess:(NSMutableArray *)arrayInput;
+
+// 非原地排序算法
++ (NSMutableArray *)startProcessNonLocal:(NSMutableArray *)arrayInput;
 
 @end
 

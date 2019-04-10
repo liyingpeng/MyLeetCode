@@ -64,6 +64,7 @@
 		9C502795225D94A7007B7E9F /* InsertSort.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InsertSort.m; sourceTree = "<group>"; };
 		9C502798225D97B4007B7E9F /* Util.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Util.h; sourceTree = "<group>"; };
 		9C502799225D97B4007B7E9F /* Util.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Util.m; sourceTree = "<group>"; };
+		9C50279B225DABBF007B7E9F /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +128,7 @@
 				9C502763225D8C12007B7E9F /* LaunchScreen.storyboard */,
 				9C502766225D8C12007B7E9F /* Info.plist */,
 				9C502767225D8C12007B7E9F /* main.m */,
+				9C50279B225DABBF007B7E9F /* PrefixHeader.pch */,
 				9C502791225D8ED1007B7E9F /* ArrayDealer.h */,
 			);
 			path = MyAlgorithmPractice;
@@ -495,6 +497,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 79QY86JU23;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/MyAlgorithmPractice/PrefixHeader.pch";
 				INFOPLIST_FILE = MyAlgorithmPractice/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -512,6 +515,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 79QY86JU23;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/MyAlgorithmPractice/PrefixHeader.pch";
 				INFOPLIST_FILE = MyAlgorithmPractice/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

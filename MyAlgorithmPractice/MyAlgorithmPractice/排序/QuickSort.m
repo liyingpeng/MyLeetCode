@@ -7,11 +7,11 @@
 //
 
 #import "QuickSort.h"
-#import "Util.h"
 
 /*
  *关于快排如何提高排序效率 从而不至于退化到O（n2）复杂度的问题：解决方案如下
  *如何保证稳定性
+ * TODO: 优化快排效率问题，通过两种方式 1. 三点选一 2.
  */
 
 @implementation QuickSort
