@@ -13,7 +13,7 @@
 
 #import "BSearch.h"
 
-#import "LongLengthOfSubStrings.h"
+#import "LengthOfLongestSubstring_Medium_3.h"
 
 @interface ViewController ()
 
@@ -45,8 +45,8 @@
     
     // leetcode
     
-//    [LongLengthOfSubStrings lengthOfLongestSubstring:@"bacajsodf"];
-    [LongLengthOfSubStrings longestSubstringOfString:@"bacajsodf"];
+//    [LengthOfLongestSubstring_Medium_3 lengthOfLongestSubstring:@"bacajsodf"];
+    [LengthOfLongestSubstring_Medium_3 longestSubstringOfString:@"bacajsodf"];
 
 }
 

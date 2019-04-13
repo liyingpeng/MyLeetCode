@@ -1,5 +1,5 @@
 //
-//  LongLengthOfSubStrings.h
+//  LengthOfLongestSubstring_Medium_3.h
 //  MyAlgorithmPractice
 //
 //  Created by 李应鹏 on 2019/4/13.
@@ -10,7 +10,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface LongLengthOfSubStrings : NSObject
+@interface LengthOfLongestSubstring_Medium_3 : NSObject
 
 + (NSInteger)lengthOfLongestSubstring:(NSString *)s;
 

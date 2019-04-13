@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9C4E3AB7226199290017FC74 /* LongLengthOfSubStrings.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C4E3AB6226199290017FC74 /* LongLengthOfSubStrings.m */; };
+		9C4E3ABA2261A3520017FC74 /* LengthOfLongestSubstring_Medium_3.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C4E3AB92261A3520017FC74 /* LengthOfLongestSubstring_Medium_3.m */; };
 		9C50275A225D8C10007B7E9F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C502759225D8C10007B7E9F /* AppDelegate.m */; };
 		9C50275D225D8C10007B7E9F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C50275C225D8C10007B7E9F /* ViewController.m */; };
 		9C502760225D8C10007B7E9F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C50275E225D8C10007B7E9F /* Main.storyboard */; };
@@ -41,8 +41,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		9C4E3AB5226199290017FC74 /* LongLengthOfSubStrings.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LongLengthOfSubStrings.h; sourceTree = "<group>"; };
-		9C4E3AB6226199290017FC74 /* LongLengthOfSubStrings.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LongLengthOfSubStrings.m; sourceTree = "<group>"; };
+		9C4E3AB82261A3520017FC74 /* LengthOfLongestSubstring_Medium_3.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LengthOfLongestSubstring_Medium_3.h; sourceTree = "<group>"; };
+		9C4E3AB92261A3520017FC74 /* LengthOfLongestSubstring_Medium_3.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LengthOfLongestSubstring_Medium_3.m; sourceTree = "<group>"; };
 		9C502755225D8C10007B7E9F /* MyAlgorithmPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyAlgorithmPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C502758225D8C10007B7E9F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9C502759225D8C10007B7E9F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -101,8 +101,8 @@
 		9C4E3AB4226199050017FC74 /* LeetCode */ = {
 			isa = PBXGroup;
 			children = (
-				9C4E3AB5226199290017FC74 /* LongLengthOfSubStrings.h */,
-				9C4E3AB6226199290017FC74 /* LongLengthOfSubStrings.m */,
+				9C4E3AB82261A3520017FC74 /* LengthOfLongestSubstring_Medium_3.h */,
+				9C4E3AB92261A3520017FC74 /* LengthOfLongestSubstring_Medium_3.m */,
 			);
 			path = LeetCode;
 			sourceTree = "<group>";
@@ -336,10 +336,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9C4E3AB7226199290017FC74 /* LongLengthOfSubStrings.m in Sources */,
 				9C502790225D8E44007B7E9F /* MergeSort.m in Sources */,
 				9C50275D225D8C10007B7E9F /* ViewController.m in Sources */,
 				9C502768225D8C12007B7E9F /* main.m in Sources */,
+				9C4E3ABA2261A3520017FC74 /* LengthOfLongestSubstring_Medium_3.m in Sources */,
 				9C50275A225D8C10007B7E9F /* AppDelegate.m in Sources */,
 				9C50279E225DE4D1007B7E9F /* BSearch.m in Sources */,
 				9C502796225D94A7007B7E9F /* InsertSort.m in Sources */,
