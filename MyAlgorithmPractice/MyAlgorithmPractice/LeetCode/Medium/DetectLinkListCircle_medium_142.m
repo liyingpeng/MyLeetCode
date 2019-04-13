@@ -42,6 +42,7 @@
     if (!hasCircle) return nil;
     fast = head;
     
+    // 这个地方没有搞懂，为什么fast从头遍历 跟slow相遇就是开始循环的节点
     while (fast != slow) {
         fast = fast.next;
         slow = slow.next;

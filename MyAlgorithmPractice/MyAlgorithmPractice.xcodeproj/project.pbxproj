@@ -7,9 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9C4E3ABA2261A3520017FC74 /* LengthOfLongestSubstring_Medium_3.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C4E3AB92261A3520017FC74 /* LengthOfLongestSubstring_Medium_3.m */; };
-		9C4E3ABE2261A8DE0017FC74 /* Flatten2DVector_mudium_251.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C4E3ABD2261A8DE0017FC74 /* Flatten2DVector_mudium_251.m */; };
-		9C4E3AC12261AE410017FC74 /* DetectLinkListCircle_medium_142.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C4E3AC02261AE410017FC74 /* DetectLinkListCircle_medium_142.m */; };
 		9C4E3AC42261B12D0017FC74 /* LinkList.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C4E3AC32261B12D0017FC74 /* LinkList.m */; };
 		9C50275A225D8C10007B7E9F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C502759225D8C10007B7E9F /* AppDelegate.m */; };
 		9C50275D225D8C10007B7E9F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C50275C225D8C10007B7E9F /* ViewController.m */; };
@@ -26,6 +23,9 @@
 		9C50279E225DE4D1007B7E9F /* BSearch.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C50279D225DE4D1007B7E9F /* BSearch.m */; };
 		9C9CDE772261B62900D966B8 /* Tree.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C9CDE762261B62900D966B8 /* Tree.m */; };
 		9C9CDE7A2261B6A200D966B8 /* Vector.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C9CDE792261B6A200D966B8 /* Vector.m */; };
+		9CA7784B2261E58600E5F319 /* LengthOfLongestSubstring_Medium_3.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CA778462261E58500E5F319 /* LengthOfLongestSubstring_Medium_3.m */; };
+		9CA7784C2261E58600E5F319 /* DetectLinkListCircle_medium_142.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CA778482261E58500E5F319 /* DetectLinkListCircle_medium_142.m */; };
+		9CA7784D2261E58600E5F319 /* Flatten2DVector_mudium_251.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CA7784A2261E58500E5F319 /* Flatten2DVector_mudium_251.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,12 +46,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		9C4E3AB82261A3520017FC74 /* LengthOfLongestSubstring_Medium_3.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LengthOfLongestSubstring_Medium_3.h; sourceTree = "<group>"; };
-		9C4E3AB92261A3520017FC74 /* LengthOfLongestSubstring_Medium_3.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LengthOfLongestSubstring_Medium_3.m; sourceTree = "<group>"; };
-		9C4E3ABC2261A8DE0017FC74 /* Flatten2DVector_mudium_251.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Flatten2DVector_mudium_251.h; sourceTree = "<group>"; };
-		9C4E3ABD2261A8DE0017FC74 /* Flatten2DVector_mudium_251.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Flatten2DVector_mudium_251.m; sourceTree = "<group>"; };
-		9C4E3ABF2261AE410017FC74 /* DetectLinkListCircle_medium_142.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetectLinkListCircle_medium_142.h; sourceTree = "<group>"; };
-		9C4E3AC02261AE410017FC74 /* DetectLinkListCircle_medium_142.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetectLinkListCircle_medium_142.m; sourceTree = "<group>"; };
 		9C4E3AC22261B12D0017FC74 /* LinkList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LinkList.h; sourceTree = "<group>"; };
 		9C4E3AC32261B12D0017FC74 /* LinkList.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LinkList.m; sourceTree = "<group>"; };
 		9C502755225D8C10007B7E9F /* MyAlgorithmPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyAlgorithmPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -86,6 +80,12 @@
 		9C9CDE762261B62900D966B8 /* Tree.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tree.m; sourceTree = "<group>"; };
 		9C9CDE782261B6A200D966B8 /* Vector.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Vector.h; sourceTree = "<group>"; };
 		9C9CDE792261B6A200D966B8 /* Vector.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Vector.m; sourceTree = "<group>"; };
+		9CA778452261E58500E5F319 /* LengthOfLongestSubstring_Medium_3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LengthOfLongestSubstring_Medium_3.h; sourceTree = "<group>"; };
+		9CA778462261E58500E5F319 /* LengthOfLongestSubstring_Medium_3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LengthOfLongestSubstring_Medium_3.m; sourceTree = "<group>"; };
+		9CA778472261E58500E5F319 /* Flatten2DVector_mudium_251.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Flatten2DVector_mudium_251.h; sourceTree = "<group>"; };
+		9CA778482261E58500E5F319 /* DetectLinkListCircle_medium_142.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetectLinkListCircle_medium_142.m; sourceTree = "<group>"; };
+		9CA778492261E58500E5F319 /* DetectLinkListCircle_medium_142.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetectLinkListCircle_medium_142.h; sourceTree = "<group>"; };
+		9CA7784A2261E58500E5F319 /* Flatten2DVector_mudium_251.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Flatten2DVector_mudium_251.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,12 +116,8 @@
 		9C4E3AB4226199050017FC74 /* LeetCode */ = {
 			isa = PBXGroup;
 			children = (
-				9C4E3AB82261A3520017FC74 /* LengthOfLongestSubstring_Medium_3.h */,
-				9C4E3AB92261A3520017FC74 /* LengthOfLongestSubstring_Medium_3.m */,
-				9C4E3ABC2261A8DE0017FC74 /* Flatten2DVector_mudium_251.h */,
-				9C4E3ABD2261A8DE0017FC74 /* Flatten2DVector_mudium_251.m */,
-				9C4E3ABF2261AE410017FC74 /* DetectLinkListCircle_medium_142.h */,
-				9C4E3AC02261AE410017FC74 /* DetectLinkListCircle_medium_142.m */,
+				9CA778442261E55F00E5F319 /* Medium */,
+				9CA778432261E54900E5F319 /* Easy */,
 			);
 			path = LeetCode;
 			sourceTree = "<group>";
@@ -237,6 +233,26 @@
 				9C9CDE792261B6A200D966B8 /* Vector.m */,
 			);
 			path = Util;
+			sourceTree = "<group>";
+		};
+		9CA778432261E54900E5F319 /* Easy */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Easy;
+			sourceTree = "<group>";
+		};
+		9CA778442261E55F00E5F319 /* Medium */ = {
+			isa = PBXGroup;
+			children = (
+				9CA778492261E58500E5F319 /* DetectLinkListCircle_medium_142.h */,
+				9CA778482261E58500E5F319 /* DetectLinkListCircle_medium_142.m */,
+				9CA778472261E58500E5F319 /* Flatten2DVector_mudium_251.h */,
+				9CA7784A2261E58500E5F319 /* Flatten2DVector_mudium_251.m */,
+				9CA778452261E58500E5F319 /* LengthOfLongestSubstring_Medium_3.h */,
+				9CA778462261E58500E5F319 /* LengthOfLongestSubstring_Medium_3.m */,
+			);
+			path = Medium;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -369,15 +385,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9CA7784C2261E58600E5F319 /* DetectLinkListCircle_medium_142.m in Sources */,
+				9CA7784D2261E58600E5F319 /* Flatten2DVector_mudium_251.m in Sources */,
 				9C9CDE7A2261B6A200D966B8 /* Vector.m in Sources */,
 				9C9CDE772261B62900D966B8 /* Tree.m in Sources */,
-				9C4E3AC12261AE410017FC74 /* DetectLinkListCircle_medium_142.m in Sources */,
 				9C502790225D8E44007B7E9F /* MergeSort.m in Sources */,
 				9C50275D225D8C10007B7E9F /* ViewController.m in Sources */,
+				9CA7784B2261E58600E5F319 /* LengthOfLongestSubstring_Medium_3.m in Sources */,
 				9C4E3AC42261B12D0017FC74 /* LinkList.m in Sources */,
 				9C502768225D8C12007B7E9F /* main.m in Sources */,
-				9C4E3ABE2261A8DE0017FC74 /* Flatten2DVector_mudium_251.m in Sources */,
-				9C4E3ABA2261A3520017FC74 /* LengthOfLongestSubstring_Medium_3.m in Sources */,
 				9C50275A225D8C10007B7E9F /* AppDelegate.m in Sources */,
 				9C50279E225DE4D1007B7E9F /* BSearch.m in Sources */,
 				9C502796225D94A7007B7E9F /* InsertSort.m in Sources */,
