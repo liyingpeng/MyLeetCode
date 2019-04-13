@@ -9,7 +9,7 @@
 #import "DetectLinkListCircle_medium_142.h"
 
 // 检测一个链表有没有环
-//
+// 快慢指针证明有环
 
 @implementation DetectLinkListCircle_medium_142
 
@@ -25,8 +25,29 @@
 }
 
 - (LinkNode *)detectCircle:(LinkNode *)head {
+    LinkNode *fast = head;
+    LinkNode *slow = head;
     
-    return nil;
+    BOOL hasCircle = NO;
+    while (fast && slow) {
+        fast = fast.next;
+        if (!slow.next) return nil;
+        else slow = slow.next.next;
+        if (fast == slow) {
+            hasCircle = YES;
+            break;
+        }
+    }
+    
+    if (!hasCircle) return nil;
+    fast = head;
+    
+    while (fast != slow) {
+        fast = fast.next;
+        slow = slow.next;
+    }
+    
+    return fast;
 }
 
 @end
