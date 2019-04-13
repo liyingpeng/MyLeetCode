@@ -13,6 +13,8 @@
 
 #import "BSearch.h"
 
+#import "LongLengthOfSubStrings.h"
+
 @interface ViewController ()
 
 @end
@@ -26,10 +28,10 @@
     
 //    NSMutableArray *inputArray = @[@1,@4,@6,@3,@9,@2].mutableCopy;
 
-    NSMutableArray *inputArray = @[].mutableCopy;
-    [self addSource:inputArray count:1000 max:1000];
+//    NSMutableArray *inputArray = @[].mutableCopy;
+//    [self addSource:inputArray count:1000 max:1000];
     
-    [QuickSort startProcess:inputArray];
+//    [QuickSort startProcess:inputArray];
 //    inputArray = [MergeSort startProcessNonLocal:inputArray];
 //    [InsertSort startProcess:inputArray];
     
@@ -39,7 +41,12 @@
     // 查找 ---------------------------------------------------------
     
 //    [BSearch bSearch:inputArray target:@1];
-    [BSearch bSearchFirstAccur:@[@1,@1,@1,@1].mutableCopy target:@1];
+//    [BSearch bSearchFirstAccur:@[@1,@1,@1,@1].mutableCopy target:@1];
+    
+    // leetcode
+    
+//    [LongLengthOfSubStrings lengthOfLongestSubstring:@"bacajsodf"];
+    [LongLengthOfSubStrings longestSubstringOfString:@"bacajsodf"];
 
 }
 
