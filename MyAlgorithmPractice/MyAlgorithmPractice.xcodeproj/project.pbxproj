@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		9C4E3ABA2261A3520017FC74 /* LengthOfLongestSubstring_Medium_3.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C4E3AB92261A3520017FC74 /* LengthOfLongestSubstring_Medium_3.m */; };
 		9C4E3ABE2261A8DE0017FC74 /* Flatten2DVector_mudium_251.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C4E3ABD2261A8DE0017FC74 /* Flatten2DVector_mudium_251.m */; };
+		9C4E3AC12261AE410017FC74 /* DetectLinkListCircle_medium_142.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C4E3AC02261AE410017FC74 /* DetectLinkListCircle_medium_142.m */; };
+		9C4E3AC42261B12D0017FC74 /* LinkList.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C4E3AC32261B12D0017FC74 /* LinkList.m */; };
 		9C50275A225D8C10007B7E9F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C502759225D8C10007B7E9F /* AppDelegate.m */; };
 		9C50275D225D8C10007B7E9F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C50275C225D8C10007B7E9F /* ViewController.m */; };
 		9C502760225D8C10007B7E9F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C50275E225D8C10007B7E9F /* Main.storyboard */; };
@@ -46,6 +48,10 @@
 		9C4E3AB92261A3520017FC74 /* LengthOfLongestSubstring_Medium_3.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LengthOfLongestSubstring_Medium_3.m; sourceTree = "<group>"; };
 		9C4E3ABC2261A8DE0017FC74 /* Flatten2DVector_mudium_251.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Flatten2DVector_mudium_251.h; sourceTree = "<group>"; };
 		9C4E3ABD2261A8DE0017FC74 /* Flatten2DVector_mudium_251.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Flatten2DVector_mudium_251.m; sourceTree = "<group>"; };
+		9C4E3ABF2261AE410017FC74 /* DetectLinkListCircle_medium_142.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetectLinkListCircle_medium_142.h; sourceTree = "<group>"; };
+		9C4E3AC02261AE410017FC74 /* DetectLinkListCircle_medium_142.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetectLinkListCircle_medium_142.m; sourceTree = "<group>"; };
+		9C4E3AC22261B12D0017FC74 /* LinkList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LinkList.h; sourceTree = "<group>"; };
+		9C4E3AC32261B12D0017FC74 /* LinkList.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LinkList.m; sourceTree = "<group>"; };
 		9C502755225D8C10007B7E9F /* MyAlgorithmPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyAlgorithmPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C502758225D8C10007B7E9F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9C502759225D8C10007B7E9F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -108,6 +114,8 @@
 				9C4E3AB92261A3520017FC74 /* LengthOfLongestSubstring_Medium_3.m */,
 				9C4E3ABC2261A8DE0017FC74 /* Flatten2DVector_mudium_251.h */,
 				9C4E3ABD2261A8DE0017FC74 /* Flatten2DVector_mudium_251.m */,
+				9C4E3ABF2261AE410017FC74 /* DetectLinkListCircle_medium_142.h */,
+				9C4E3AC02261AE410017FC74 /* DetectLinkListCircle_medium_142.m */,
 			);
 			path = LeetCode;
 			sourceTree = "<group>";
@@ -215,6 +223,8 @@
 			children = (
 				9C502798225D97B4007B7E9F /* Util.h */,
 				9C502799225D97B4007B7E9F /* Util.m */,
+				9C4E3AC22261B12D0017FC74 /* LinkList.h */,
+				9C4E3AC32261B12D0017FC74 /* LinkList.m */,
 			);
 			path = Util;
 			sourceTree = "<group>";
@@ -349,8 +359,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C4E3AC12261AE410017FC74 /* DetectLinkListCircle_medium_142.m in Sources */,
 				9C502790225D8E44007B7E9F /* MergeSort.m in Sources */,
 				9C50275D225D8C10007B7E9F /* ViewController.m in Sources */,
+				9C4E3AC42261B12D0017FC74 /* LinkList.m in Sources */,
 				9C502768225D8C12007B7E9F /* main.m in Sources */,
 				9C4E3ABE2261A8DE0017FC74 /* Flatten2DVector_mudium_251.m in Sources */,
 				9C4E3ABA2261A3520017FC74 /* LengthOfLongestSubstring_Medium_3.m in Sources */,
