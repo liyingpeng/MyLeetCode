@@ -8,6 +8,9 @@
 
 #import "DetectLinkListCircle_medium_142.h"
 
+// 检测一个链表有没有环
+//
+
 @implementation DetectLinkListCircle_medium_142
 
 - (instancetype)init
@@ -22,7 +25,7 @@
 }
 
 - (LinkNode *)detectCircle:(LinkNode *)head {
-
+    
     return nil;
 }
 

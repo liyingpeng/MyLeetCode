@@ -13,8 +13,8 @@ NS_ASSUME_NONNULL_BEGIN
 @interface LinkNode : NSObject
 
 @property (nonatomic, strong) id value;
-@property (nonatomic, strong) LinkNode *pre;
-@property (nonatomic, strong) LinkNode *next;
+@property (nonatomic, strong, nullable) LinkNode *pre;
+@property (nonatomic, strong, nullable) LinkNode *next;
 
 - (instancetype)initWithValue:(id)value;
 + (instancetype)nodeWith:(id)value;
