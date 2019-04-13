@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		9C4E3ABA2261A3520017FC74 /* LengthOfLongestSubstring_Medium_3.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C4E3AB92261A3520017FC74 /* LengthOfLongestSubstring_Medium_3.m */; };
+		9C4E3ABE2261A8DE0017FC74 /* Flatten2DVector_mudium_251.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C4E3ABD2261A8DE0017FC74 /* Flatten2DVector_mudium_251.m */; };
 		9C50275A225D8C10007B7E9F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C502759225D8C10007B7E9F /* AppDelegate.m */; };
 		9C50275D225D8C10007B7E9F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C50275C225D8C10007B7E9F /* ViewController.m */; };
 		9C502760225D8C10007B7E9F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C50275E225D8C10007B7E9F /* Main.storyboard */; };
@@ -43,6 +44,8 @@
 /* Begin PBXFileReference section */
 		9C4E3AB82261A3520017FC74 /* LengthOfLongestSubstring_Medium_3.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LengthOfLongestSubstring_Medium_3.h; sourceTree = "<group>"; };
 		9C4E3AB92261A3520017FC74 /* LengthOfLongestSubstring_Medium_3.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LengthOfLongestSubstring_Medium_3.m; sourceTree = "<group>"; };
+		9C4E3ABC2261A8DE0017FC74 /* Flatten2DVector_mudium_251.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Flatten2DVector_mudium_251.h; sourceTree = "<group>"; };
+		9C4E3ABD2261A8DE0017FC74 /* Flatten2DVector_mudium_251.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Flatten2DVector_mudium_251.m; sourceTree = "<group>"; };
 		9C502755225D8C10007B7E9F /* MyAlgorithmPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyAlgorithmPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C502758225D8C10007B7E9F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9C502759225D8C10007B7E9F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -103,8 +106,17 @@
 			children = (
 				9C4E3AB82261A3520017FC74 /* LengthOfLongestSubstring_Medium_3.h */,
 				9C4E3AB92261A3520017FC74 /* LengthOfLongestSubstring_Medium_3.m */,
+				9C4E3ABC2261A8DE0017FC74 /* Flatten2DVector_mudium_251.h */,
+				9C4E3ABD2261A8DE0017FC74 /* Flatten2DVector_mudium_251.m */,
 			);
 			path = LeetCode;
+			sourceTree = "<group>";
+		};
+		9C4E3ABB2261A3F80017FC74 /* Some More */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Some More";
 			sourceTree = "<group>";
 		};
 		9C50274C225D8C10007B7E9F = {
@@ -130,6 +142,7 @@
 		9C502757225D8C10007B7E9F /* MyAlgorithmPractice */ = {
 			isa = PBXGroup;
 			children = (
+				9C4E3ABB2261A3F80017FC74 /* Some More */,
 				9C4E3AB4226199050017FC74 /* LeetCode */,
 				9C502797225D97AD007B7E9F /* Util */,
 				9C502793225D8F5A007B7E9F /* 数组和链表 */,
@@ -339,6 +352,7 @@
 				9C502790225D8E44007B7E9F /* MergeSort.m in Sources */,
 				9C50275D225D8C10007B7E9F /* ViewController.m in Sources */,
 				9C502768225D8C12007B7E9F /* main.m in Sources */,
+				9C4E3ABE2261A8DE0017FC74 /* Flatten2DVector_mudium_251.m in Sources */,
 				9C4E3ABA2261A3520017FC74 /* LengthOfLongestSubstring_Medium_3.m in Sources */,
 				9C50275A225D8C10007B7E9F /* AppDelegate.m in Sources */,
 				9C50279E225DE4D1007B7E9F /* BSearch.m in Sources */,

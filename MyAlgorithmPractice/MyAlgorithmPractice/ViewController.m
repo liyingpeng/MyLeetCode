@@ -14,6 +14,7 @@
 #import "BSearch.h"
 
 #import "LengthOfLongestSubstring_Medium_3.h"
+#import "Flatten2DVector_mudium_251.h"
 
 @interface ViewController ()
 
@@ -47,6 +48,7 @@
     
 //    [LengthOfLongestSubstring_Medium_3 lengthOfLongestSubstring:@"bacajsodf"];
     [LengthOfLongestSubstring_Medium_3 longestSubstringOfString:@"bacajsodf"];
+    [Flatten2DVector_mudium_251 start];
 
 }
 
