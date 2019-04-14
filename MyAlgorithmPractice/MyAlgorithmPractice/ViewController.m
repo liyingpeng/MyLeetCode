@@ -19,6 +19,8 @@
 
 #import "Cal8Queens.h"
 
+#import "Bag.h"
+
 @interface ViewController ()
 
 @end
@@ -55,7 +57,9 @@
     
 //    [DetectLinkListCircle_medium_142 new];
 
-    [Cal8Queens new];
+//    [Cal8Queens new];
+    
+    [Bag startCal:@[@1, @7, @19, @2, @8, @5, @8] index:0 cw:0 w:18];
 }
 
 - (void)addSource:(NSMutableArray *)array count:(NSInteger)count max:(NSInteger)maxValue {

@@ -8,9 +8,12 @@
 
 #import "Cal8Queens.h"
 
-static NSInteger kQueenNum = 9;
-
 // 回溯法 - 八皇后问题
+// 通过回溯体验如何枚举所有可能情况
+// 以及递归的精髓
+
+static NSInteger kQueenNum = 8;
+
 @interface Cal8Queens ()
 
 @property(nonatomic, strong) NSMutableArray *array;
@@ -38,6 +41,7 @@ static NSInteger kQueenNum = 9;
 
 - (void)cal8Queen:(NSInteger)r {
     if (r < 0) {
+        // 如果所有行已经都回溯过了 直接返回不能计算即可
         printf("there is no naswer for queen number %ld", (long)self.queenNum);
         printf("\n");
         return;
@@ -51,6 +55,7 @@ static NSInteger kQueenNum = 9;
     NSInteger i = r < self.array.count ? [self.array[r] integerValue] + 1 : 0;
     
     if (i >= self.queenNum) {
+        // 如果当前行已经没有可选了 回溯前一行
         [self.array removeLastObject];
         [self cal8Queen:--r];
         return;
@@ -64,6 +69,7 @@ static NSInteger kQueenNum = 9;
         }
     }
     if (!setted) {
+        // 开始回溯
         [self cal8Queen:--r];
     }
 }
