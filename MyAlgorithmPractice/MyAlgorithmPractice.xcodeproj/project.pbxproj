@@ -24,6 +24,7 @@
 		9C5027A72262DE1B007B7E9F /* Stack.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C5027A62262DE1B007B7E9F /* Stack.m */; };
 		9C5027AA2262DE22007B7E9F /* Queue.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C5027A92262DE22007B7E9F /* Queue.m */; };
 		9C5027AD2262DE2B007B7E9F /* PriorityQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C5027AC2262DE2B007B7E9F /* PriorityQueue.m */; };
+		9C5027B02262E3C8007B7E9F /* Cal8Queens.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C5027AF2262E3C8007B7E9F /* Cal8Queens.m */; };
 		9C9CDE772261B62900D966B8 /* Tree.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C9CDE762261B62900D966B8 /* Tree.m */; };
 		9C9CDE7A2261B6A200D966B8 /* Vector.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C9CDE792261B6A200D966B8 /* Vector.m */; };
 		9CA7784B2261E58600E5F319 /* LengthOfLongestSubstring_Medium_3.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CA778462261E58500E5F319 /* LengthOfLongestSubstring_Medium_3.m */; };
@@ -85,6 +86,8 @@
 		9C5027A92262DE22007B7E9F /* Queue.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Queue.m; sourceTree = "<group>"; };
 		9C5027AB2262DE2B007B7E9F /* PriorityQueue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PriorityQueue.h; sourceTree = "<group>"; };
 		9C5027AC2262DE2B007B7E9F /* PriorityQueue.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PriorityQueue.m; sourceTree = "<group>"; };
+		9C5027AE2262E3C8007B7E9F /* Cal8Queens.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Cal8Queens.h; sourceTree = "<group>"; };
+		9C5027AF2262E3C8007B7E9F /* Cal8Queens.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Cal8Queens.m; sourceTree = "<group>"; };
 		9C9CDE752261B62900D966B8 /* Tree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Tree.h; sourceTree = "<group>"; };
 		9C9CDE762261B62900D966B8 /* Tree.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tree.m; sourceTree = "<group>"; };
 		9C9CDE782261B6A200D966B8 /* Vector.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Vector.h; sourceTree = "<group>"; };
@@ -255,6 +258,8 @@
 		9C5027A32262D2DB007B7E9F /* 动态规划 */ = {
 			isa = PBXGroup;
 			children = (
+				9C5027AE2262E3C8007B7E9F /* Cal8Queens.h */,
+				9C5027AF2262E3C8007B7E9F /* Cal8Queens.m */,
 			);
 			path = "动态规划";
 			sourceTree = "<group>";
@@ -424,6 +429,7 @@
 				9C502790225D8E44007B7E9F /* MergeSort.m in Sources */,
 				9C50275D225D8C10007B7E9F /* ViewController.m in Sources */,
 				9C5027AA2262DE22007B7E9F /* Queue.m in Sources */,
+				9C5027B02262E3C8007B7E9F /* Cal8Queens.m in Sources */,
 				9CA7784B2261E58600E5F319 /* LengthOfLongestSubstring_Medium_3.m in Sources */,
 				9C4E3AC42261B12D0017FC74 /* LinkList.m in Sources */,
 				9C502768225D8C12007B7E9F /* main.m in Sources */,

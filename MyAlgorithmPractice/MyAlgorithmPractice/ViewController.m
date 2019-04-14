@@ -17,6 +17,8 @@
 #import "Flatten2DVector_mudium_251.h"
 #import "DetectLinkListCircle_medium_142.h"
 
+#import "Cal8Queens.h"
+
 @interface ViewController ()
 
 @end
@@ -51,8 +53,9 @@
 //    [LengthOfLongestSubstring_Medium_3 longestSubstringOfString:@"bacajsodf"];
 //    [Flatten2DVector_mudium_251 start];
     
-    [DetectLinkListCircle_medium_142 new];
+//    [DetectLinkListCircle_medium_142 new];
 
+    [Cal8Queens new];
 }
 
 - (void)addSource:(NSMutableArray *)array count:(NSInteger)count max:(NSInteger)maxValue {
