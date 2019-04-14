@@ -21,6 +21,9 @@
 		9C502796225D94A7007B7E9F /* InsertSort.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C502795225D94A7007B7E9F /* InsertSort.m */; };
 		9C50279A225D97B4007B7E9F /* Util.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C502799225D97B4007B7E9F /* Util.m */; };
 		9C50279E225DE4D1007B7E9F /* BSearch.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C50279D225DE4D1007B7E9F /* BSearch.m */; };
+		9C5027A72262DE1B007B7E9F /* Stack.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C5027A62262DE1B007B7E9F /* Stack.m */; };
+		9C5027AA2262DE22007B7E9F /* Queue.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C5027A92262DE22007B7E9F /* Queue.m */; };
+		9C5027AD2262DE2B007B7E9F /* PriorityQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C5027AC2262DE2B007B7E9F /* PriorityQueue.m */; };
 		9C9CDE772261B62900D966B8 /* Tree.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C9CDE762261B62900D966B8 /* Tree.m */; };
 		9C9CDE7A2261B6A200D966B8 /* Vector.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C9CDE792261B6A200D966B8 /* Vector.m */; };
 		9CA7784B2261E58600E5F319 /* LengthOfLongestSubstring_Medium_3.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CA778462261E58500E5F319 /* LengthOfLongestSubstring_Medium_3.m */; };
@@ -76,6 +79,12 @@
 		9C50279B225DABBF007B7E9F /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		9C50279C225DE4D1007B7E9F /* BSearch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BSearch.h; sourceTree = "<group>"; };
 		9C50279D225DE4D1007B7E9F /* BSearch.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BSearch.m; sourceTree = "<group>"; };
+		9C5027A52262DE1B007B7E9F /* Stack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Stack.h; sourceTree = "<group>"; };
+		9C5027A62262DE1B007B7E9F /* Stack.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Stack.m; sourceTree = "<group>"; };
+		9C5027A82262DE22007B7E9F /* Queue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Queue.h; sourceTree = "<group>"; };
+		9C5027A92262DE22007B7E9F /* Queue.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Queue.m; sourceTree = "<group>"; };
+		9C5027AB2262DE2B007B7E9F /* PriorityQueue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PriorityQueue.h; sourceTree = "<group>"; };
+		9C5027AC2262DE2B007B7E9F /* PriorityQueue.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PriorityQueue.m; sourceTree = "<group>"; };
 		9C9CDE752261B62900D966B8 /* Tree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Tree.h; sourceTree = "<group>"; };
 		9C9CDE762261B62900D966B8 /* Tree.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tree.m; sourceTree = "<group>"; };
 		9C9CDE782261B6A200D966B8 /* Vector.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Vector.h; sourceTree = "<group>"; };
@@ -152,6 +161,8 @@
 		9C502757225D8C10007B7E9F /* MyAlgorithmPractice */ = {
 			isa = PBXGroup;
 			children = (
+				9C5027A42262D6CA007B7E9F /* 树 */,
+				9C5027A32262D2DB007B7E9F /* 动态规划 */,
 				9C4E3ABB2261A3F80017FC74 /* Some More */,
 				9C4E3AB4226199050017FC74 /* LeetCode */,
 				9C502797225D97AD007B7E9F /* Util */,
@@ -231,8 +242,28 @@
 				9C9CDE762261B62900D966B8 /* Tree.m */,
 				9C9CDE782261B6A200D966B8 /* Vector.h */,
 				9C9CDE792261B6A200D966B8 /* Vector.m */,
+				9C5027A52262DE1B007B7E9F /* Stack.h */,
+				9C5027A62262DE1B007B7E9F /* Stack.m */,
+				9C5027A82262DE22007B7E9F /* Queue.h */,
+				9C5027A92262DE22007B7E9F /* Queue.m */,
+				9C5027AB2262DE2B007B7E9F /* PriorityQueue.h */,
+				9C5027AC2262DE2B007B7E9F /* PriorityQueue.m */,
 			);
 			path = Util;
+			sourceTree = "<group>";
+		};
+		9C5027A32262D2DB007B7E9F /* 动态规划 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "动态规划";
+			sourceTree = "<group>";
+		};
+		9C5027A42262D6CA007B7E9F /* 树 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "树";
 			sourceTree = "<group>";
 		};
 		9CA778432261E54900E5F319 /* Easy */ = {
@@ -388,9 +419,11 @@
 				9CA7784C2261E58600E5F319 /* DetectLinkListCircle_medium_142.m in Sources */,
 				9CA7784D2261E58600E5F319 /* Flatten2DVector_mudium_251.m in Sources */,
 				9C9CDE7A2261B6A200D966B8 /* Vector.m in Sources */,
+				9C5027A72262DE1B007B7E9F /* Stack.m in Sources */,
 				9C9CDE772261B62900D966B8 /* Tree.m in Sources */,
 				9C502790225D8E44007B7E9F /* MergeSort.m in Sources */,
 				9C50275D225D8C10007B7E9F /* ViewController.m in Sources */,
+				9C5027AA2262DE22007B7E9F /* Queue.m in Sources */,
 				9CA7784B2261E58600E5F319 /* LengthOfLongestSubstring_Medium_3.m in Sources */,
 				9C4E3AC42261B12D0017FC74 /* LinkList.m in Sources */,
 				9C502768225D8C12007B7E9F /* main.m in Sources */,
@@ -399,6 +432,7 @@
 				9C502796225D94A7007B7E9F /* InsertSort.m in Sources */,
 				9C50279A225D97B4007B7E9F /* Util.m in Sources */,
 				9C50278D225D8E34007B7E9F /* QuickSort.m in Sources */,
+				9C5027AD2262DE2B007B7E9F /* PriorityQueue.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
