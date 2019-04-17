@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9C3439242267196600337E6F /* LongestCommonPrefix.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C3439202267196500337E6F /* LongestCommonPrefix.m */; };
+		9C3439252267196600337E6F /* MergeSortedArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C3439212267196600337E6F /* MergeSortedArray.m */; };
 		9C4E3AC42261B12D0017FC74 /* LinkList.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C4E3AC32261B12D0017FC74 /* LinkList.m */; };
 		9C50275A225D8C10007B7E9F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C502759225D8C10007B7E9F /* AppDelegate.m */; };
 		9C50275D225D8C10007B7E9F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C50275C225D8C10007B7E9F /* ViewController.m */; };
@@ -26,6 +28,7 @@
 		9C5027AD2262DE2B007B7E9F /* PriorityQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C5027AC2262DE2B007B7E9F /* PriorityQueue.m */; };
 		9C5027B02262E3C8007B7E9F /* Cal8Queens.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C5027AF2262E3C8007B7E9F /* Cal8Queens.m */; };
 		9C5027B322630B55007B7E9F /* Bag.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C5027B222630B55007B7E9F /* Bag.m */; };
+		9C6F97552267202B005AC1BE /* RemoveDuplicateFromArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C6F97542267202B005AC1BE /* RemoveDuplicateFromArray.m */; };
 		9C9CDE772261B62900D966B8 /* Tree.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C9CDE762261B62900D966B8 /* Tree.m */; };
 		9C9CDE7A2261B6A200D966B8 /* Vector.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C9CDE792261B6A200D966B8 /* Vector.m */; };
 		9CA7784B2261E58600E5F319 /* LengthOfLongestSubstring_Medium_3.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CA778462261E58500E5F319 /* LengthOfLongestSubstring_Medium_3.m */; };
@@ -51,6 +54,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9C3439202267196500337E6F /* LongestCommonPrefix.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LongestCommonPrefix.m; sourceTree = "<group>"; };
+		9C3439212267196600337E6F /* MergeSortedArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MergeSortedArray.m; sourceTree = "<group>"; };
+		9C3439222267196600337E6F /* MergeSortedArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MergeSortedArray.h; sourceTree = "<group>"; };
+		9C3439232267196600337E6F /* LongestCommonPrefix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LongestCommonPrefix.h; sourceTree = "<group>"; };
 		9C4E3AC22261B12D0017FC74 /* LinkList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LinkList.h; sourceTree = "<group>"; };
 		9C4E3AC32261B12D0017FC74 /* LinkList.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LinkList.m; sourceTree = "<group>"; };
 		9C502755225D8C10007B7E9F /* MyAlgorithmPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyAlgorithmPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -91,6 +98,8 @@
 		9C5027AF2262E3C8007B7E9F /* Cal8Queens.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Cal8Queens.m; sourceTree = "<group>"; };
 		9C5027B122630B55007B7E9F /* Bag.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Bag.h; sourceTree = "<group>"; };
 		9C5027B222630B55007B7E9F /* Bag.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Bag.m; sourceTree = "<group>"; };
+		9C6F97532267202B005AC1BE /* RemoveDuplicateFromArray.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RemoveDuplicateFromArray.h; sourceTree = "<group>"; };
+		9C6F97542267202B005AC1BE /* RemoveDuplicateFromArray.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RemoveDuplicateFromArray.m; sourceTree = "<group>"; };
 		9C9CDE752261B62900D966B8 /* Tree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Tree.h; sourceTree = "<group>"; };
 		9C9CDE762261B62900D966B8 /* Tree.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tree.m; sourceTree = "<group>"; };
 		9C9CDE782261B6A200D966B8 /* Vector.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Vector.h; sourceTree = "<group>"; };
@@ -128,11 +137,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9C34391F2267194B00337E6F /* Easy */ = {
+			isa = PBXGroup;
+			children = (
+				9C3439232267196600337E6F /* LongestCommonPrefix.h */,
+				9C3439202267196500337E6F /* LongestCommonPrefix.m */,
+				9C3439222267196600337E6F /* MergeSortedArray.h */,
+				9C3439212267196600337E6F /* MergeSortedArray.m */,
+				9C6F97532267202B005AC1BE /* RemoveDuplicateFromArray.h */,
+				9C6F97542267202B005AC1BE /* RemoveDuplicateFromArray.m */,
+			);
+			path = Easy;
+			sourceTree = "<group>";
+		};
 		9C4E3AB4226199050017FC74 /* LeetCode */ = {
 			isa = PBXGroup;
 			children = (
+				9C34391F2267194B00337E6F /* Easy */,
 				9CA778442261E55F00E5F319 /* Medium */,
-				9CA778432261E54900E5F319 /* Easy */,
 			);
 			path = LeetCode;
 			sourceTree = "<group>";
@@ -274,13 +296,6 @@
 			children = (
 			);
 			path = "树";
-			sourceTree = "<group>";
-		};
-		9CA778432261E54900E5F319 /* Easy */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Easy;
 			sourceTree = "<group>";
 		};
 		9CA778442261E55F00E5F319 /* Medium */ = {
@@ -429,6 +444,7 @@
 				9CA7784C2261E58600E5F319 /* DetectLinkListCircle_medium_142.m in Sources */,
 				9CA7784D2261E58600E5F319 /* Flatten2DVector_mudium_251.m in Sources */,
 				9C9CDE7A2261B6A200D966B8 /* Vector.m in Sources */,
+				9C3439242267196600337E6F /* LongestCommonPrefix.m in Sources */,
 				9C5027A72262DE1B007B7E9F /* Stack.m in Sources */,
 				9C5027B322630B55007B7E9F /* Bag.m in Sources */,
 				9C9CDE772261B62900D966B8 /* Tree.m in Sources */,
@@ -442,6 +458,8 @@
 				9C50275A225D8C10007B7E9F /* AppDelegate.m in Sources */,
 				9C50279E225DE4D1007B7E9F /* BSearch.m in Sources */,
 				9C502796225D94A7007B7E9F /* InsertSort.m in Sources */,
+				9C6F97552267202B005AC1BE /* RemoveDuplicateFromArray.m in Sources */,
+				9C3439252267196600337E6F /* MergeSortedArray.m in Sources */,
 				9C50279A225D97B4007B7E9F /* Util.m in Sources */,
 				9C50278D225D8E34007B7E9F /* QuickSort.m in Sources */,
 				9C5027AD2262DE2B007B7E9F /* PriorityQueue.m in Sources */,
