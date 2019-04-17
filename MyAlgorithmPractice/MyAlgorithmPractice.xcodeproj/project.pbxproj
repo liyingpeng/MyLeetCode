@@ -34,6 +34,7 @@
 		9CA7784B2261E58600E5F319 /* LengthOfLongestSubstring_Medium_3.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CA778462261E58500E5F319 /* LengthOfLongestSubstring_Medium_3.m */; };
 		9CA7784C2261E58600E5F319 /* DetectLinkListCircle_medium_142.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CA778482261E58500E5F319 /* DetectLinkListCircle_medium_142.m */; };
 		9CA7784D2261E58600E5F319 /* Flatten2DVector_mudium_251.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CA7784A2261E58500E5F319 /* Flatten2DVector_mudium_251.m */; };
+		9CB37D48226726C8007FF055 /* BestTimeToBuyAndSell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CB37D47226726C8007FF055 /* BestTimeToBuyAndSell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -110,6 +111,8 @@
 		9CA778482261E58500E5F319 /* DetectLinkListCircle_medium_142.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetectLinkListCircle_medium_142.m; sourceTree = "<group>"; };
 		9CA778492261E58500E5F319 /* DetectLinkListCircle_medium_142.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetectLinkListCircle_medium_142.h; sourceTree = "<group>"; };
 		9CA7784A2261E58500E5F319 /* Flatten2DVector_mudium_251.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Flatten2DVector_mudium_251.m; sourceTree = "<group>"; };
+		9CB37D46226726C8007FF055 /* BestTimeToBuyAndSell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BestTimeToBuyAndSell.h; sourceTree = "<group>"; };
+		9CB37D47226726C8007FF055 /* BestTimeToBuyAndSell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BestTimeToBuyAndSell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -146,6 +149,8 @@
 				9C3439212267196600337E6F /* MergeSortedArray.m */,
 				9C6F97532267202B005AC1BE /* RemoveDuplicateFromArray.h */,
 				9C6F97542267202B005AC1BE /* RemoveDuplicateFromArray.m */,
+				9CB37D46226726C8007FF055 /* BestTimeToBuyAndSell.h */,
+				9CB37D47226726C8007FF055 /* BestTimeToBuyAndSell.m */,
 			);
 			path = Easy;
 			sourceTree = "<group>";
@@ -453,6 +458,7 @@
 				9C5027AA2262DE22007B7E9F /* Queue.m in Sources */,
 				9C5027B02262E3C8007B7E9F /* Cal8Queens.m in Sources */,
 				9CA7784B2261E58600E5F319 /* LengthOfLongestSubstring_Medium_3.m in Sources */,
+				9CB37D48226726C8007FF055 /* BestTimeToBuyAndSell.m in Sources */,
 				9C4E3AC42261B12D0017FC74 /* LinkList.m in Sources */,
 				9C502768225D8C12007B7E9F /* main.m in Sources */,
 				9C50275A225D8C10007B7E9F /* AppDelegate.m in Sources */,

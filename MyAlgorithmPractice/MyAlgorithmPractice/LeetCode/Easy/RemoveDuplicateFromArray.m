@@ -11,7 +11,7 @@
 @implementation RemoveDuplicateFromArray
 
 + (void)load {
-    [self removeDuplicateFromArray:@[@1, @1, @3, @3, @3, @4, @5, @5].mutableCopy];
+//    [self removeDuplicateFromArray:@[@1, @1, @3, @3, @3, @4, @5, @5].mutableCopy];
 }
 
 + (NSInteger)removeDuplicateFromArray:(NSMutableArray *)array {
