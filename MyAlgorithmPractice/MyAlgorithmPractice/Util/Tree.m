@@ -24,7 +24,12 @@
 @implementation Tree
 
 + (void)load {
-    Tree *tree = [[Tree alloc] initWithArray:@[@"A", @"B", @"D", @"#", @"#", @"E", @"#", @"#", @"C", @"F",@"#", @"#", @"G", @"#", @"#"]];
+    // 普通二叉树
+//    Tree *tree = [[Tree alloc] initWithArray:@[@"A", @"B", @"D", @"#", @"#", @"E", @"#", @"#", @"C", @"F",@"#", @"#", @"G", @"#", @"#"]];
+    
+    // 二叉搜索树
+//    Tree *tree = [[Tree alloc] initWithArray:@[@"50", @"45", @"60", @"40", @"48", @"55", @"68", @"30", @"42", @"47",@"49", @"52", @"58", @"64", @"70"]];
+
 }
 
 - (instancetype)initWithArray:(NSArray *)array

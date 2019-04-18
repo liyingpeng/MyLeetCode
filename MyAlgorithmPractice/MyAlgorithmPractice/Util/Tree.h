@@ -21,8 +21,7 @@ NS_ASSUME_NONNULL_BEGIN
 @interface Tree : NSObject
 
 @property (nonatomic, strong) TreeNode *root;
-
-
+- (instancetype)initWithArray:(NSArray *)array;
 
 @end
 

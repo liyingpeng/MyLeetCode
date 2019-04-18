@@ -21,6 +21,8 @@
 
 #import "Bag.h"
 
+#import "TreeTraverse.h"
+
 @interface ViewController ()
 
 @end
@@ -60,6 +62,10 @@
 //    [Cal8Queens new];
     
 //    [Bag startCal:@[@1, @7, @19, @2, @8, @5, @8] index:0 cw:0 w:18];
+    
+    Tree *tree = [[Tree alloc] initWithArray:@[@"50", @"45", @"60", @"40", @"48", @"55", @"68", @"30", @"42", @"47",@"49", @"52", @"58", @"64", @"70"]];
+    [TreeTraverse bds:tree.root];
+
 }
 
 - (void)addSource:(NSMutableArray *)array count:(NSInteger)count max:(NSInteger)maxValue {

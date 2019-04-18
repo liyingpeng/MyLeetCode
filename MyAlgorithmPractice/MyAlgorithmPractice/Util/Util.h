@@ -8,6 +8,9 @@
 
 #import <Foundation/Foundation.h>
 #import "LinkList.h"
+#import "Tree.h"
+#import "Queue.h"
+#import "Stack.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
