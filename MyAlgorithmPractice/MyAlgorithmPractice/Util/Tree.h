@@ -20,6 +20,10 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface Tree : NSObject
 
+@property (nonatomic, strong) TreeNode *root;
+
+
+
 @end
 
 NS_ASSUME_NONNULL_END
