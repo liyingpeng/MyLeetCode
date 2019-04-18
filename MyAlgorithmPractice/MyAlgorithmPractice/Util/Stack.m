@@ -8,116 +8,59 @@
 
 #import "Stack.h"
 
-typedef struct Node {       // 节点结构
-    void *data;
-    struct Node *next;
-} Node;
+@interface Stack ()
+@property (nonatomic, strong) NSMutableArray *heap;
+@end
 
-// 栈结构 top -> [data] -> [data] -> NULL
-typedef struct stack {      // 栈结构，链表存储
-    Node *top;
-    int size;
-} StackStruct;
+@implementation Stack
 
-
-@implementation Stack {
-    StackStruct *stack;       // 栈
-}
-
-- (instancetype)init {
-    if (self = [super init]) {
-        [self initStack];
+- (instancetype)init
+{
+    self = [super init];
+    if (self) {
+        self.heap = @[].mutableCopy;
     }
     return self;
 }
 
-- (void)dealloc {
-    [self destoryStack];
-}
-
-- (void)initStack {
-    stack = (StackStruct *)malloc(sizeof(StackStruct));
-    if (stack) {
-        stack->size = 0;
-        Node *tmp = (Node *)malloc(sizeof(Node));
-        tmp->next = NULL;
-        tmp->data = NULL;
-        stack->top = (tmp ? tmp : NULL);
-    } else {
-        stack = NULL;
-    }
-}
-
-- (void)destoryStack {
-    while (stack->top) {
-        Node *tmp = stack->top;
-        stack->top = stack->top->next;
-        if (tmp->data) {
-            CFRelease(tmp->data);
-        }
-        free(tmp);
-    }
-    free(stack);
-    stack = NULL;
-}
-
-- (void)push:(id)elem {
-    if (stack->top == NULL) return ;
-    
-    Node *tmp = (Node *)malloc(sizeof(Node));
-    tmp->data = (__bridge_retained void *)elem;     // retain 方式
-    tmp->next = stack->top;         // 头部插入
-    stack->top = tmp;
-    stack->size++;
-}
-
-- (void)pop {
-    if (stack->size <= 0) return ;
-    
-    Node *tmp = stack->top;
-    stack->top = stack->top->next;
-    if (tmp->data) {
-        CFRelease(tmp->data);
-    }
-    free(tmp);
-    stack->size--;
-}
-
-- (id)top {
-    if (stack->size > 0) {
-        return (__bridge id)stack->top->data;
-    }
-    return nil;
-}
-
-- (NSInteger)size {
-    return stack->size;
-}
-
 - (BOOL)isEmpty {
-    return stack->size > 0 ? false : true;
+    return [self size] == 0;
 }
 
-- (NSArray *)allObjects {
-    NSMutableArray *array = [[NSMutableArray alloc] init];
-    Node *cur = stack->top;
-    while (cur->next) {
-        [array addObject:(__bridge id)cur->data];
-        cur = cur->next;
+- (BOOL)contains:(id)object {
+    for (id item in self.heap) {
+        if ([item isEqual:object]) {
+            return YES;
+        }
     }
-    return array;
+    return NO;
+}
+
+- (NSUInteger)size {
+    return self.heap.count;
 }
 
 - (void)clear {
-    while (stack->top && stack->top->next) {
-        Node *tmp = stack->top;
-        stack->top = stack->top->next;
-        if (tmp->data) {
-            CFRelease(tmp->data);
-        }
-        free(tmp);
-    }
-    stack->size = 0;
+    self.heap = @[].mutableCopy;
+}
+
+- (void)push:(id)item {
+    [self.heap addObject:item];
+}
+
+- (id)pop {
+    if (self.heap.count <= 0) return nil;
+    id res = self.heap.lastObject;
+    [self.heap removeLastObject];
+    return res;
+}
+
+- (void)remove:(id)item {
+    [self.heap removeObject:item];
+}
+
+- (id)peak {
+    return [self.heap lastObject];
 }
 
 @end
