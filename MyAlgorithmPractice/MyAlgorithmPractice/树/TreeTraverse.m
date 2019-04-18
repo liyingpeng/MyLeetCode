@@ -12,7 +12,29 @@
 
 // 中序
 + (void)inorderDFS:(TreeNode *)root {
+    if (!root) return;
     
+//    Stack *stack = [Stack new];
+//
+//    TreeNode *node = root;
+//    while (node) {
+//        [stack push:root.left];
+//        node = node.left;
+//    }
+//
+//    while (![stack isEmpty]) {
+//        TreeNode *n = [stack pop];
+//        NSLog(@"%@", n.value);
+//        if (n.right) {
+//            [stack push:n.right];
+//        } else {
+//
+//        }
+//    }
+    
+    [self inorderDFS:root.left];
+    NSLog(@"%@", root.value);
+    [self inorderDFS:root.right];
 }
 
 // 前序
