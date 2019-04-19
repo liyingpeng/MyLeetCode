@@ -36,6 +36,7 @@
 		9CB37D48226726C8007FF055 /* BestTimeToBuyAndSell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CB37D47226726C8007FF055 /* BestTimeToBuyAndSell.m */; };
 		9CB37D4B226888F3007FF055 /* TreeTraverse.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CB37D4A226888F3007FF055 /* TreeTraverse.m */; };
 		9CB37D4E22688BED007FF055 /* Queue.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CB37D4D22688BED007FF055 /* Queue.m */; };
+		9CB37D51226974B1007FF055 /* BinaryTree.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CB37D50226974B1007FF055 /* BinaryTree.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -116,6 +117,8 @@
 		9CB37D4A226888F3007FF055 /* TreeTraverse.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TreeTraverse.m; sourceTree = "<group>"; };
 		9CB37D4C22688BED007FF055 /* Queue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Queue.h; sourceTree = "<group>"; };
 		9CB37D4D22688BED007FF055 /* Queue.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Queue.m; sourceTree = "<group>"; };
+		9CB37D4F226974B1007FF055 /* BinaryTree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BinaryTree.h; sourceTree = "<group>"; };
+		9CB37D50226974B1007FF055 /* BinaryTree.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BinaryTree.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -304,6 +307,8 @@
 			children = (
 				9CB37D49226888F3007FF055 /* TreeTraverse.h */,
 				9CB37D4A226888F3007FF055 /* TreeTraverse.m */,
+				9CB37D4F226974B1007FF055 /* BinaryTree.h */,
+				9CB37D50226974B1007FF055 /* BinaryTree.m */,
 			);
 			path = "树";
 			sourceTree = "<group>";
@@ -451,6 +456,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9CB37D51226974B1007FF055 /* BinaryTree.m in Sources */,
 				9CA7784C2261E58600E5F319 /* DetectLinkListCircle_medium_142.m in Sources */,
 				9CA7784D2261E58600E5F319 /* Flatten2DVector_mudium_251.m in Sources */,
 				9C9CDE7A2261B6A200D966B8 /* Vector.m in Sources */,

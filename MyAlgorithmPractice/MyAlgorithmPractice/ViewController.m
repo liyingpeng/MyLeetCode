@@ -65,8 +65,10 @@
     
     Tree *tree = [[Tree alloc] initWithArray:@[@"50", @"45", @"60", @"40", @"48", @"55", @"68", @"30", @"42", @"47",@"49", @"52", @"58", @"64", @"70"]];
 //    [TreeTraverse bds:tree.root];
-    [TreeTraverse inorderDFS:tree.root];
-
+//    [TreeTraverse inorderDFS:tree.root];
+//    [TreeTraverse preorderDFS:tree.root];
+//    [TreeTraverse deorderDFS:tree.root];
+    [TreeTraverse findKthSmallest:tree.root k:2];
 }
 
 - (void)addSource:(NSMutableArray *)array count:(NSInteger)count max:(NSInteger)maxValue {
