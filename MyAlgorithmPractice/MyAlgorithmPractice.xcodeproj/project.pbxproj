@@ -40,6 +40,7 @@
 		9CB37D5422699F39007FF055 /* ContainDuplicate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CB37D5322699F39007FF055 /* ContainDuplicate.m */; };
 		9CB37DA2226EC20E007FF055 /* IsHappyNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CB37DA1226EC20E007FF055 /* IsHappyNumber.m */; };
 		9CB37DA5226EC425007FF055 /* BinaryTreeBottomUpTraverse.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CB37DA4226EC425007FF055 /* BinaryTreeBottomUpTraverse.m */; };
+		9CB37DA8226EE48C007FF055 /* HouseRobber.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CB37DA7226EE48C007FF055 /* HouseRobber.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -128,6 +129,8 @@
 		9CB37DA1226EC20E007FF055 /* IsHappyNumber.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IsHappyNumber.m; sourceTree = "<group>"; };
 		9CB37DA3226EC425007FF055 /* BinaryTreeBottomUpTraverse.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BinaryTreeBottomUpTraverse.h; sourceTree = "<group>"; };
 		9CB37DA4226EC425007FF055 /* BinaryTreeBottomUpTraverse.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BinaryTreeBottomUpTraverse.m; sourceTree = "<group>"; };
+		9CB37DA6226EE48C007FF055 /* HouseRobber.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HouseRobber.h; sourceTree = "<group>"; };
+		9CB37DA7226EE48C007FF055 /* HouseRobber.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HouseRobber.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -172,6 +175,8 @@
 				9CB37DA1226EC20E007FF055 /* IsHappyNumber.m */,
 				9CB37DA3226EC425007FF055 /* BinaryTreeBottomUpTraverse.h */,
 				9CB37DA4226EC425007FF055 /* BinaryTreeBottomUpTraverse.m */,
+				9CB37DA6226EE48C007FF055 /* HouseRobber.h */,
+				9CB37DA7226EE48C007FF055 /* HouseRobber.m */,
 			);
 			path = Easy;
 			sourceTree = "<group>";
@@ -476,6 +481,7 @@
 				9CA7784D2261E58600E5F319 /* Flatten2DVector_mudium_251.m in Sources */,
 				9C9CDE7A2261B6A200D966B8 /* Vector.m in Sources */,
 				9C3439242267196600337E6F /* LongestCommonPrefix.m in Sources */,
+				9CB37DA8226EE48C007FF055 /* HouseRobber.m in Sources */,
 				9C5027A72262DE1B007B7E9F /* Stack.m in Sources */,
 				9CB37DA5226EC425007FF055 /* BinaryTreeBottomUpTraverse.m in Sources */,
 				9C5027B322630B55007B7E9F /* Bag.m in Sources */,
