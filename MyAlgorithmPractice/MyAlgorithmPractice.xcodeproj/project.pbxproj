@@ -41,6 +41,7 @@
 		9CB37DA2226EC20E007FF055 /* IsHappyNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CB37DA1226EC20E007FF055 /* IsHappyNumber.m */; };
 		9CB37DA5226EC425007FF055 /* BinaryTreeBottomUpTraverse.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CB37DA4226EC425007FF055 /* BinaryTreeBottomUpTraverse.m */; };
 		9CB37DA8226EE48C007FF055 /* HouseRobber.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CB37DA7226EE48C007FF055 /* HouseRobber.m */; };
+		9CB37DAB226EF0A4007FF055 /* CountAndSay.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CB37DAA226EF0A4007FF055 /* CountAndSay.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -131,6 +132,8 @@
 		9CB37DA4226EC425007FF055 /* BinaryTreeBottomUpTraverse.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BinaryTreeBottomUpTraverse.m; sourceTree = "<group>"; };
 		9CB37DA6226EE48C007FF055 /* HouseRobber.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HouseRobber.h; sourceTree = "<group>"; };
 		9CB37DA7226EE48C007FF055 /* HouseRobber.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HouseRobber.m; sourceTree = "<group>"; };
+		9CB37DA9226EF0A4007FF055 /* CountAndSay.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CountAndSay.h; sourceTree = "<group>"; };
+		9CB37DAA226EF0A4007FF055 /* CountAndSay.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CountAndSay.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -177,6 +180,8 @@
 				9CB37DA4226EC425007FF055 /* BinaryTreeBottomUpTraverse.m */,
 				9CB37DA6226EE48C007FF055 /* HouseRobber.h */,
 				9CB37DA7226EE48C007FF055 /* HouseRobber.m */,
+				9CB37DA9226EF0A4007FF055 /* CountAndSay.h */,
+				9CB37DAA226EF0A4007FF055 /* CountAndSay.m */,
 			);
 			path = Easy;
 			sourceTree = "<group>";
@@ -505,6 +510,7 @@
 				9C50278D225D8E34007B7E9F /* QuickSort.m in Sources */,
 				9CB37D5422699F39007FF055 /* ContainDuplicate.m in Sources */,
 				9C5027AD2262DE2B007B7E9F /* PriorityQueue.m in Sources */,
+				9CB37DAB226EF0A4007FF055 /* CountAndSay.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
