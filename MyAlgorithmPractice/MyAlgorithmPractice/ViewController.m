@@ -23,6 +23,8 @@
 
 #import "TreeTraverse.h"
 
+#import "ContainDuplicate.h"
+
 @interface ViewController ()
 
 @end
@@ -63,12 +65,16 @@
     
 //    [Bag startCal:@[@1, @7, @19, @2, @8, @5, @8] index:0 cw:0 w:18];
     
-    Tree *tree = [[Tree alloc] initWithArray:@[@"50", @"45", @"60", @"40", @"48", @"55", @"68", @"30", @"42", @"47",@"49", @"52", @"58", @"64", @"70"]];
+    // Tree ---------------------------------------------------------
+
+//    Tree *tree = [[Tree alloc] initWithArray:@[@"50", @"45", @"60", @"40", @"48", @"55", @"68", @"30", @"42", @"47",@"49", @"52", @"58", @"64", @"70"]];
 //    [TreeTraverse bds:tree.root];
 //    [TreeTraverse inorderDFS:tree.root];
 //    [TreeTraverse preorderDFS:tree.root];
 //    [TreeTraverse deorderDFS:tree.root];
-    [TreeTraverse findKthSmallest:tree.root k:2];
+//    [TreeTraverse findKthSmallest:tree.root k:2];
+    
+    [ContainDuplicate containsNearbyDuplicate:@[@1, @2, @7, @3, @1] k:3];
 }
 
 - (void)addSource:(NSMutableArray *)array count:(NSInteger)count max:(NSInteger)maxValue {

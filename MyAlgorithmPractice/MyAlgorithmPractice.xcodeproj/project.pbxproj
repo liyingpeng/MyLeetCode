@@ -37,6 +37,9 @@
 		9CB37D4B226888F3007FF055 /* TreeTraverse.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CB37D4A226888F3007FF055 /* TreeTraverse.m */; };
 		9CB37D4E22688BED007FF055 /* Queue.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CB37D4D22688BED007FF055 /* Queue.m */; };
 		9CB37D51226974B1007FF055 /* BinaryTree.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CB37D50226974B1007FF055 /* BinaryTree.m */; };
+		9CB37D5422699F39007FF055 /* ContainDuplicate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CB37D5322699F39007FF055 /* ContainDuplicate.m */; };
+		9CB37DA2226EC20E007FF055 /* IsHappyNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CB37DA1226EC20E007FF055 /* IsHappyNumber.m */; };
+		9CB37DA5226EC425007FF055 /* BinaryTreeBottomUpTraverse.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CB37DA4226EC425007FF055 /* BinaryTreeBottomUpTraverse.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -119,6 +122,12 @@
 		9CB37D4D22688BED007FF055 /* Queue.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Queue.m; sourceTree = "<group>"; };
 		9CB37D4F226974B1007FF055 /* BinaryTree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BinaryTree.h; sourceTree = "<group>"; };
 		9CB37D50226974B1007FF055 /* BinaryTree.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BinaryTree.m; sourceTree = "<group>"; };
+		9CB37D5222699F39007FF055 /* ContainDuplicate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ContainDuplicate.h; sourceTree = "<group>"; };
+		9CB37D5322699F39007FF055 /* ContainDuplicate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ContainDuplicate.m; sourceTree = "<group>"; };
+		9CB37DA0226EC20E007FF055 /* IsHappyNumber.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IsHappyNumber.h; sourceTree = "<group>"; };
+		9CB37DA1226EC20E007FF055 /* IsHappyNumber.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IsHappyNumber.m; sourceTree = "<group>"; };
+		9CB37DA3226EC425007FF055 /* BinaryTreeBottomUpTraverse.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BinaryTreeBottomUpTraverse.h; sourceTree = "<group>"; };
+		9CB37DA4226EC425007FF055 /* BinaryTreeBottomUpTraverse.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BinaryTreeBottomUpTraverse.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -157,6 +166,12 @@
 				9C6F97542267202B005AC1BE /* RemoveDuplicateFromArray.m */,
 				9CB37D46226726C8007FF055 /* BestTimeToBuyAndSell.h */,
 				9CB37D47226726C8007FF055 /* BestTimeToBuyAndSell.m */,
+				9CB37D5222699F39007FF055 /* ContainDuplicate.h */,
+				9CB37D5322699F39007FF055 /* ContainDuplicate.m */,
+				9CB37DA0226EC20E007FF055 /* IsHappyNumber.h */,
+				9CB37DA1226EC20E007FF055 /* IsHappyNumber.m */,
+				9CB37DA3226EC425007FF055 /* BinaryTreeBottomUpTraverse.h */,
+				9CB37DA4226EC425007FF055 /* BinaryTreeBottomUpTraverse.m */,
 			);
 			path = Easy;
 			sourceTree = "<group>";
@@ -462,6 +477,7 @@
 				9C9CDE7A2261B6A200D966B8 /* Vector.m in Sources */,
 				9C3439242267196600337E6F /* LongestCommonPrefix.m in Sources */,
 				9C5027A72262DE1B007B7E9F /* Stack.m in Sources */,
+				9CB37DA5226EC425007FF055 /* BinaryTreeBottomUpTraverse.m in Sources */,
 				9C5027B322630B55007B7E9F /* Bag.m in Sources */,
 				9C9CDE772261B62900D966B8 /* Tree.m in Sources */,
 				9C502790225D8E44007B7E9F /* MergeSort.m in Sources */,
@@ -475,11 +491,13 @@
 				9CB37D4E22688BED007FF055 /* Queue.m in Sources */,
 				9C50279E225DE4D1007B7E9F /* BSearch.m in Sources */,
 				9C502796225D94A7007B7E9F /* InsertSort.m in Sources */,
+				9CB37DA2226EC20E007FF055 /* IsHappyNumber.m in Sources */,
 				9C6F97552267202B005AC1BE /* RemoveDuplicateFromArray.m in Sources */,
 				9C3439252267196600337E6F /* MergeSortedArray.m in Sources */,
 				9C50279A225D97B4007B7E9F /* Util.m in Sources */,
 				9CB37D4B226888F3007FF055 /* TreeTraverse.m in Sources */,
 				9C50278D225D8E34007B7E9F /* QuickSort.m in Sources */,
+				9CB37D5422699F39007FF055 /* ContainDuplicate.m in Sources */,
 				9C5027AD2262DE2B007B7E9F /* PriorityQueue.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
